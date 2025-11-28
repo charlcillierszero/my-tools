@@ -95,6 +95,20 @@
 - **FR-006**: System MUST authenticate users via [NEEDS CLARIFICATION: auth method not specified - email/password, SSO, OAuth?]
 - **FR-007**: System MUST retain user data for [NEEDS CLARIFICATION: retention period not specified]
 
+### UX Consistency *(mandatory for user-facing features)*
+
+- **UX-001**: CLI/API names, flags/options, messages, and exit codes MUST follow
+  project conventions and be documented.
+- **UX-002**: Where applicable, provide both human-readable and JSON output
+  modes for commands.
+
+### Performance Requirements *(mandatory if performance-sensitive)*
+
+- **PRF-001**: Define measurable budgets (e.g., latency p95, throughput,
+  memory/CPU). Include target values and measurement approach.
+- **PRF-002**: Identify representative benchmarks or tests to guard against
+  regressions.
+
 ### Key Entities *(include if feature involves data)*
 
 - **[Entity 1]**: [What it represents, key attributes without implementation]

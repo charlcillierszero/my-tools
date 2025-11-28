@@ -31,7 +31,18 @@
 
 *GATE: Must pass before Phase 0 research. Re-check after Phase 1 design.*
 
-[Gates determined based on constitution file]
+The feature plan MUST document how it satisfies the following gates:
+
+- Code Quality Gate: Identify any expected complexity hotspots and justify; no
+  anticipated linter/static-analysis violations.
+- Testing Gate: List required unit and integration/contract tests for this
+  feature; confirm coverage for new/changed lines.
+- UX Consistency Gate: Declare CLI/API naming, flags, messages, and output
+  modes (human-readable/JSON) and link to doc updates.
+- Performance Gate: Declare measurable budgets (e.g., latency p95, throughput,
+  memory/CPU) and how they will be checked (benchmarks or representative tests).
+- Modularity Gate: Describe module boundaries, ownership, and public contracts;
+  note any breaking changes and migration guidance.
 
 ## Project Structure
 
